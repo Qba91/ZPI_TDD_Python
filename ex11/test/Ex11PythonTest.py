@@ -17,7 +17,7 @@ class Ex11PythonTest(unittest.TestCase):
     def TestRulesForTheOddNumber(self):
         self.assertEqual(next_number(3), 10)
     
-    def TestSequence(self):
+    def TestDequence(self):
         result = sequence(13)
         self.assertEqual(result, 10)
 

@@ -8,3 +8,18 @@ def next_number(n):
         return n/2
     else:
         return 3 * n+1
+
+def sequence():
+    """
+    oblicza sekwencje liczb
+    """
+    pass
+
+
+def longestCollatzSequence():
+    """
+    Zwraca liczbe o najdluzszej
+    """
+    pass
+
+
