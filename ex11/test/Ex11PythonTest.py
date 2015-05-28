@@ -7,7 +7,6 @@ Created on 28-05-2015
 import unittest
 from ex11.Ex11Python import next_number 
 
-
 class Ex11PythonTest(unittest.TestCase):
     
     def TestRulesForTheEvenNumber(self):
