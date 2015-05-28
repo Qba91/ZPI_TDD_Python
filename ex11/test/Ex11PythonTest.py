@@ -7,7 +7,7 @@ Created on 28-05-2015
 import unittest
 from ex11.Ex11Python import next_number 
 from ex11.Ex11Python import sequence
-from ex11.Ex11Python import longestCollatzSequence
+from ex11.Ex11Python import longest_collatz_sequence
 
 class Ex11PythonTest(unittest.TestCase):
     
@@ -22,7 +22,7 @@ class Ex11PythonTest(unittest.TestCase):
         self.assertEqual(result, 10)
 
     def TestSequenceLongestCollatzSequence(self):
-        result = longestCollatzSequence()
+        result = longest_collatz_sequence()
         self.assertEqual(result, 837799)   
 
 if __name__ == '__main__':
